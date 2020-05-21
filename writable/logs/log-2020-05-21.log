@@ -1,0 +1,89 @@
+CRITICAL - 2020-05-21 07:13:59 --> Undefined variable: session
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\contact.php(37): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 37, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/contact', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\pages.php(27): view('pages/contact')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\pages->contact()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 07:15:00 --> Undefined variable: config
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\contact.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 5, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/contact', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\pages.php(27): view('pages/contact')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\pages->contact()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 07:15:24 --> Undefined variable: config
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\contact.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 5, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/contact', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\pages.php(27): view('pages/contact')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\pages->contact()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 07:15:54 --> Object of class CodeIgniter\Session\Session could not be converted to string
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\contact.php(5): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'E:\\xxamp\\htdocs...', 5, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/contact', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\pages.php(27): view('pages/contact')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\pages->contact()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\pages))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 {main}
+CRITICAL - 2020-05-21 07:16:37 --> Undefined variable: config
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(5): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 5, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Router\Router.php(575): include_once('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('ContactControll...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('ContactControll...')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 {main}
+CRITICAL - 2020-05-21 07:16:55 --> Undefined variable: session
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 25, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->submit()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-21 07:18:37 --> Undefined property: App\Controllers\ContactController::$session
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined prope...', 'E:\\xxamp\\htdocs...', 25, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->submit()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-21 07:19:19 --> Undefined variable: session
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(25): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 25, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->submit()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-21 07:35:55 --> Array to string conversion
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(26): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Array to string...', 'E:\\xxamp\\htdocs...', 26, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->submit()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 {main}
+CRITICAL - 2020-05-21 07:38:52 --> Too few arguments to function App\Controllers\ContactController::submit(), 0 passed in E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php on line 914 and exactly 1 expected
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->submit()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-21 07:40:38 --> Too few arguments to function App\Controllers\ContactController::__construct(), 0 passed in E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php on line 886 and exactly 1 expected
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(886): App\Controllers\ContactController->__construct()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(395): CodeIgniter\CodeIgniter->createController()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}

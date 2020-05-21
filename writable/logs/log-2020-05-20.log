@@ -1,0 +1,167 @@
+CRITICAL - 2020-05-20 09:25:23 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(13): App\Models\Contact->getdata()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-20 09:25:24 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\xxamp\\htdocs...', 100, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\ContactController), true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(299): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-20 09:26:35 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(13): App\Models\Contact->getdata()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-20 09:26:35 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\xxamp\\htdocs...', 100, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\ContactController), true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(299): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-20 09:26:47 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(13): App\Models\Contact->getdata()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-20 09:26:47 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\xxamp\\htdocs...', 100, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\ContactController), true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(299): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-20 09:28:36 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(13): App\Models\Contact->getdata()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-20 09:28:36 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\xxamp\\htdocs...', 100, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\ContactController), true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(299): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-20 09:29:39 --> No connection could be made because the target machine actively refused it.
+
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(377): CodeIgniter\Database\MySQLi\Connection->connect(false)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(643): CodeIgniter\Database\BaseConnection->initialize()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(13): App\Models\Contact->getdata()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-20 09:29:39 --> Uncaught ErrorException: print_r(): Property access is not allowed yet in E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php:100
+Stack trace:
+#0 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'print_r(): Prop...', 'E:\\xxamp\\htdocs...', 100, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\errors\html\error_exception.php(100): print_r(Object(App\Controllers\ContactController), true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(299): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Debug\Exceptions.php(172): CodeIgniter\Debug\Exceptions->render(Object(mysqli_sql_exception), 500)
+#4 [internal function]: CodeIgniter\Debug\Exceptions->exceptionHandler(Object(mysqli_sql_exception))
+#5 {main}
+  thrown
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-20 09:31:06 --> Undefined variable: data
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): CodeIgniter\Debug\Exceptions->errorHandler(8, 'Undefined varia...', 'E:\\xxamp\\htdocs...', 15, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-20 10:24:38 --> include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'E:\\xxamp\\htdocs...', 5, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(5): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 10:31:09 --> include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(6): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'E:\\xxamp\\htdocs...', 6, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(6): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 10:31:54 --> include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'E:\\xxamp\\htdocs...', 7, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(7): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-20 10:32:21 --> include_once(): http:// wrapper is disabled in the server configuration by allow_url_include=0
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once():...', 'E:\\xxamp\\htdocs...', 7, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(7): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}

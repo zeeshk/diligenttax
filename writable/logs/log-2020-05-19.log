@@ -1,0 +1,340 @@
+CRITICAL - 2020-05-19 02:18:59 --> Too few arguments to function App\Controllers\Home::second(), 1 passed in E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php on line 914 and exactly 3 expected
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\Home->second('12')
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 {main}
+CRITICAL - 2020-05-19 02:44:51 --> syntax error, unexpected ':', expecting ',' or ')'
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Router\Router.php(192): CodeIgniter\Router\Router->autoRoute('Home')
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(789): CodeIgniter\Router\Router->handle('Home')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(360): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#6 {main}
+CRITICAL - 2020-05-19 03:10:08 --> Invalid file: {0}
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(228): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('contact.php')
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('contact', Array, true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\Contact.php(14): view('contact', Array)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\Contact->index()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Contact))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-19 03:25:25 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:25:39 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:26:49 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:26:49 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:26:50 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:26:50 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:26:50 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:27:34 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:27:35 --> Class 'Codeigniter\Model' not found
+#0 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+#1 {main}
+CRITICAL - 2020-05-19 03:29:29 --> Call to a member function getdata() on null
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-19 03:29:56 --> Call to a member function getdata() on null
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#5 {main}
+CRITICAL - 2020-05-19 07:54:37 --> dts is not a valid database connection group.
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(235): CodeIgniter\Database\Config::connect('dts', true)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(12): db_connect('dts')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(12): App\Models\Contact->getdata()
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-19 08:12:17 --> Object of class stdClass could not be converted to string
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\contacts\contact.php(3): CodeIgniter\Debug\Exceptions->errorHandler(4096, 'Object of class...', 'E:\\xxamp\\htdocs...', 3, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('contacts/contac...', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(14): view('contacts/contac...', Array)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-19 08:12:30 --> Cannot use object of type stdClass as array
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('contacts/contac...', Array, true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(14): view('contacts/contac...', Array)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-19 08:12:31 --> Cannot use object of type stdClass as array
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('contacts/contac...', Array, true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(14): view('contacts/contac...', Array)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#8 {main}
+CRITICAL - 2020-05-19 08:27:53 --> Use of undefined constant DBPrefix - assumed 'DBPrefix' (this will throw an Error in a future version of PHP)
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\contacts\contact.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Use of undefine...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('contacts/contac...', Array, true)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(14): view('contacts/contac...', Array)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#9 {main}
+CRITICAL - 2020-05-19 10:11:34 --> No database selected
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\MySQLi\Connection.php(331): mysqli->query('SELECT * from u...')
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(738): CodeIgniter\Database\MySQLi\Connection->execute('SELECT * from u...')
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Database\BaseConnection.php(666): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT * from u...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Models\Contact.php(13): CodeIgniter\Database\BaseConnection->query('SELECT * from u...')
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(12): App\Models\Contact->getdata()
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:07:28 --> include(includes/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:08:49 --> include(includes/header): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:08:54 --> include(includes/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:09:07 --> include(includes/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(include...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:09:21 --> include(../includes/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include(../incl...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:14:27 --> include_once(includes/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(in...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:16:10 --> include_once(inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(in...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:16:25 --> include_once(inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(in...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:35:29 --> include_once(/Views/inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(/V...', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:36:28 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:36:30 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:37:17 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-19 14:37:25 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-19 14:38:07 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 {main}
+CRITICAL - 2020-05-19 14:41:39 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:42:35 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:48:07 --> include_once(../inc/header.php): failed to open stream: No such file or directory
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'include_once(.....', 'E:\\xxamp\\htdocs...', 2, Array)
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Views\pages\home.php(2): include_once()
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include('E:\\xxamp\\htdocs...')
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#8 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#9 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#10 {main}
+CRITICAL - 2020-05-19 14:58:43 --> syntax error, unexpected 'Views' (T_STRING), expecting ',' or ';'
+#0 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\View\View.php(246): include()
+#1 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Common.php(1087): CodeIgniter\View\View->render('pages/home', Array, true)
+#2 E:\xxamp\htdocs\www\projects\diligenttaxservices\app\Controllers\ContactController.php(15): view('pages/home', Array)
+#3 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(914): App\Controllers\ContactController->index()
+#4 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(400): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ContactController))
+#5 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\CodeIgniter.php(308): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#6 E:\xxamp\htdocs\www\projects\diligenttaxservices\public\index.php(45): CodeIgniter\CodeIgniter->run()
+#7 E:\xxamp\htdocs\www\projects\diligenttaxservices\system\Commands\Server\rewrite.php(34): require_once('E:\\xxamp\\htdocs...')
+#8 {main}

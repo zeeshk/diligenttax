@@ -22,8 +22,8 @@ class App extends BaseConfig
 	|
 	*/
 	//public $baseURL = 'http://localhost:8080/';
-	//public $baseURL = 'http://localhost/www/projects/diligenttaxservices/public/';	
-	public $baseURL = 'http://diligenttaxservices.in/public/';
+	public $baseURL = 'http://localhost/www/projects/diligenttaxservices/public/';	
+	//public $baseURL = 'http://diligenttaxservices.in/public/';
 
 	/*
 	|--------------------------------------------------------------------------
